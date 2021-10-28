@@ -1,0 +1,199 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+    background-color: #272b36;
+    height: 100%;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+/* My CSS start here */
+
+.navBar {
+    width:100%;
+    list-style-type: none;
+    line-height: 30px;
+  
+}
+
+.navItem {
+    float: left; /* make the unordered list go on same line, no bullets */
+    text-align: center;
+    padding: 2.13px;
+    background-color: rgb(89, 209, 147);
+    width: 33%
+ 
+  
+}
+
+.main {
+    background-color: #1a1e27;
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    border-radius: 4px;
+    color: ghostwhite;
+    font-size: 18px;
+}
+
+.about {
+    width: 33%;
+    text-align: center;
+    display: inline;
+    float: left;
+    margin-left: 1%;
+   
+}
+
+.meetingTimes {
+    width: 32%;
+    text-align: center;
+    display: inline;
+    float: left;
+}
+
+.upcomingMeeting {
+    width: 32%;
+    text-align: center;
+    display: inline;
+    float: left;
+}
+
+
+.welcomePeople {
+    text-align: center;
+}
+
+.eboardRow {
+    width: 100%;
+    display: flex;
+}
+
+.profileCard {
+    background-color: lightskyblue;
+    width: 20%;
+    margin-left: 20%;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px #4444dd);
+}
+
+.profileCard2 {
+    background-color: lightskyblue;
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px #4444dd);
+}
+
+
+.cardContents {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+
+.sidebar {
+    width: 20%;
+    height: 50%;
+    margin-left:80%;
+    background-color:lightskyblue;
+    border-radius: 5px;
+    /*filter: drop-shadow(-5px 10px 4px rgb(116, 230, 116));*/
+    outline-style: solid;
+    outline-color: black;
+    outline-width: thick;
+}
